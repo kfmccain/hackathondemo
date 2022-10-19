@@ -1,8 +1,7 @@
-Feature: Getting Application ID - Scenario 1
+Feature: Hackathon Demo Test
 
-	#Sample Scenario
-	@TEST_DESK-19
-	Scenario: Getting Application ID - Scenario 1
+	@TEST_HD-3
+	Scenario: Hackathon Demo Test
 		Scenario: Getting Application ID
 		        Given I am a Logging user
 		        And I have an application name
