@@ -1,4 +1,5 @@
-Feature: Hackathon Demo Test
+@HD-4
+Feature: Ad-hoc execution for HD-3
 
 	@TEST_HD-3
 	Scenario: Hackathon Demo Test
