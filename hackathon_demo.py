@@ -1,4 +1,5 @@
 # content of test_publish_article.py
+# Kurt McCain
 
 import logging
 from pytest_bdd import scenario, given, when, then
