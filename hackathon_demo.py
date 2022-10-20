@@ -6,7 +6,7 @@ import requests
 
 log = logging.getLogger(__name__)
 
-@scenario('1_HD-5.feature', 'Getting Application ID')
+@scenario('hackathon_demo.feature', 'Getting Application ID')
 def test_getAppiId():
     pass
 
