@@ -1,4 +1,5 @@
 # content of test_publish_article.py
+# Kurt McCain
 
 import logging
 from pytest_bdd import scenario, given, when, then
@@ -20,6 +21,10 @@ def test_posterrorLogMes():
 
 @scenario('hackathon_demo.feature', 'Post Debug Log Message')
 def test_post_debug():
+    pass
+
+@scenario('hackathon_demo.feature', 'Getting Application User Name')
+def test_get_app_username():
     pass
 
 

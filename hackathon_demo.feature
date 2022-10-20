@@ -24,3 +24,9 @@ Feature: Sample Scenario
         Then I have a debug message I want to log
         When I try to log this message
         Then This message should insert into the database
+
+    Scenario: Getting Application User Name
+        Given I am a Logging user
+        Then I have a debug message I want to log
+        When I try to log this message
+        Then This message should insert into the database
