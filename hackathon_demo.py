@@ -22,6 +22,10 @@ def test_posterrorLogMes():
 def test_post_debug():
     pass
 
+@scenario('hackathon_demo.feature', 'Getting Application User Name')
+def test_get_app_username():
+    pass
+
 
 @given("I am a Logging user")
 def LoggingUser():
