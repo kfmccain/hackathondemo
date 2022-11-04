@@ -2,11 +2,13 @@
 # Kurt McCain
 
 import logging
+import pytest
 from pytest_bdd import scenario, given, when, then
 import requests
 
 log = logging.getLogger(__name__)
 
+@pytest.mark.jira("HD-32")
 @scenario('hackathon_demo.feature', 'Getting Application ID')
 def test_getAppiId():
     pass
